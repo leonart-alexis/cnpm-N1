@@ -1,3 +1,23 @@
+
+/* code hover */
+.container {
+    width: 20%;
+    display:inline-block;
+    float : right;
+  }
+.back {
+    background-image: url("./ledat.png");
+      background-color: #cccccc;
+      width: 150px;
+      height: 150px;
+      background-size: 100% 100%;
+}
+.back:hover {
+background-image: url("/anh.jpg");
+}
+
+/* code end hover */
+
 .section-title{
     text-transform:uppercase;
     border-bottom:solid;
@@ -84,12 +104,9 @@
 }
 #thongtin{
     position: relative;
+    display:inline-block;
 }
-.avatar{
-    position: absolute;
-    top: 31px; right: 0px;
-    max-width:167px;
-}
+
 .day1{
     display:inline-block;
     width:300px;
@@ -208,3 +225,16 @@ ul.ad1 li::before{
     left:-46px;
 }
 a:hover{color:red;}
+
+
+
+
+  
+
+ 
+
+
+
+
+
+
